@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="636" height="636" viewBox="0 0 636 636">
+  <g id="Group_1080" data-name="Group 1080" transform="translate(-1589 1550)">
+    <g id="Ellipse_123" data-name="Ellipse 123" transform="translate(1589 -1550)" fill="#f22f45" stroke="#707070" stroke-width="1">
+      <circle cx="318" cy="318" r="318" stroke="none"/>
+      <circle cx="318" cy="318" r="317.5" fill="none"/>
+    </g>
+    <g id="Group_1079" data-name="Group 1079">
+      <g id="Rectangle_591" data-name="Rectangle 591" transform="translate(1774 -1416)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="266" height="369" stroke="none"/>
+        <rect x="0.5" y="0.5" width="265" height="368" fill="none"/>
+      </g>
+      <line id="Line_1" data-name="Line 1" x2="161.4" transform="translate(1808.217 -1361.124)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_2" data-name="Line 2" x2="161.4" transform="translate(1808.217 -1202.307)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_3" data-name="Line 3" x2="161.4" transform="translate(1808.217 -1255.246)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_4" data-name="Line 4" x2="161.4" transform="translate(1808.217 -1308.185)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_5" data-name="Line 5" x2="161.4" transform="translate(1808.217 -1096.429)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_6" data-name="Line 6" x2="161.4" transform="translate(1808.217 -1149.368)" fill="none" stroke="#707070" stroke-width="1"/>
+      <g id="Rectangle_592" data-name="Rectangle 592" transform="translate(1994 -1375)" fill="#171212" stroke="#707070" stroke-width="1">
+        <rect width="27" height="27" stroke="none"/>
+        <rect x="0.5" y="0.5" width="26" height="26" fill="none"/>
+      </g>
+      <g id="Rectangle_593" data-name="Rectangle 593" transform="translate(1994 -1216)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="27" height="27" stroke="none"/>
+        <rect x="0.5" y="0.5" width="26" height="26" fill="none"/>
+      </g>
+      <g id="Rectangle_594" data-name="Rectangle 594" transform="translate(1994 -1269)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="27" height="27" stroke="none"/>
+        <rect x="0.5" y="0.5" width="26" height="26" fill="none"/>
+      </g>
+      <g id="Rectangle_595" data-name="Rectangle 595" transform="translate(1994 -1322)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="27" height="27" stroke="none"/>
+        <rect x="0.5" y="0.5" width="26" height="26" fill="none"/>
+      </g>
+      <g id="Rectangle_596" data-name="Rectangle 596" transform="translate(1994 -1110)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="27" height="27" stroke="none"/>
+        <rect x="0.5" y="0.5" width="26" height="26" fill="none"/>
+      </g>
+      <g id="Rectangle_597" data-name="Rectangle 597" transform="translate(1994 -1163)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="27" height="27" stroke="none"/>
+        <rect x="0.5" y="0.5" width="26" height="26" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
