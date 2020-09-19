@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!-- DESIGNED AND DEVELOPED BY REITWIEC SHANDILYA
+    
+    Contact me:
+    reitwiec@iecsemanipal.com
+    reitwiec@gmail.com
+
+
+   ▄█    █▄       ▄████████    ▄█   ▄█▄ ███    █▄  ███▄▄▄▄      ▄████████ 
+  ███    ███     ███    ███   ███ ▄███▀ ███    ███ ███▀▀▀██▄   ███    ███ 
+  ███    ███     ███    ███   ███▐██▀   ███    ███ ███   ███   ███    ███ 
+ ▄███▄▄▄▄███▄▄   ███    ███  ▄█████▀    ███    ███ ███   ███   ███    ███ 
+▀▀███▀▀▀▀███▀  ▀███████████ ▀▀█████▄    ███    ███ ███   ███ ▀███████████ 
+  ███    ███     ███    ███   ███▐██▄   ███    ███ ███   ███   ███    ███ 
+  ███    ███     ███    ███   ███ ▀███▄ ███    ███ ███   ███   ███    ███ 
+  ███    █▀      ███    █▀    ███   ▀█▀ ████████▀   ▀█   █▀    ███    █▀  
+                              ▀                                           
+                              
+
+   ▄▄▄▄███▄▄▄▄      ▄████████     ███        ▄████████     ███        ▄████████ 
+ ▄██▀▀▀███▀▀▀██▄   ███    ███ ▀█████████▄   ███    ███ ▀█████████▄   ███    ███ 
+ ███   ███   ███   ███    ███    ▀███▀▀██   ███    ███    ▀███▀▀██   ███    ███ 
+ ███   ███   ███   ███    ███     ███   ▀   ███    ███     ███   ▀   ███    ███ 
+ ███   ███   ███ ▀███████████     ███     ▀███████████     ███     ▀███████████ 
+ ███   ███   ███   ███    ███     ███       ███    ███     ███       ███    ███ 
+ ███   ███   ███   ███    ███     ███       ███    ███     ███       ███    ███ 
+  ▀█   ███   █▀    ███    █▀     ▄████▀     ███    █▀     ▄████▀     ███    █▀  
+                                                                                
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="language" content="english">
+    <meta name="distribution" content="global">
+    <meta name="author" content="IQMU">
+    <meta name="publisher" content="IQMU">
+    <meta name="copyright" content="2019 IQMU">
+    <meta name="description"
+        content="IQMU is an international Quiz competition for Medical Undergraduates which is centred around academics and culture.">
+    <meta name="keywords"
+        content="IQMU,International Quiz for Medical Undergraduates, 2021, Quiz, Competition, International, Medicine, Doctor, Manipal, KMC, College">
+
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script type="text/javascript" src="nav.js"></script>
+    <title>IQMU 2021</title>
+
+
+</head>
+
+<body>
+    <div id="loader-wrapper">
+        <div class="gooey">
+
+            <span class="dot" id="loaditem"></span>
+            <div class="dots">
+                <span id="loaditem"></span>
+                <span id="loaditem"></span>
+                <span id="loaditem"></span>
+            </div>
+        </div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <div id="overlay" class="close">
+        <a href="#" id="close">&#215;</a>
+        <a href="./events.html">Events</a>
+        <a href="./itinerary.html">Itinerary</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./registration.html">Register</a>
+        <a href="./iqmubacktobasics.html">Back to Basics: IQMU</a>
+        <a href="./iqmu2020.html">IQMU 2020</a>
+    </div>
+    <div id="redbg">
+        <div id="nicered"></div>
+        <img class="doctor" src="./assets/landing-01.svg">
+        <div class="navbar desktop">
+            <div class="nav-logo"><a href="./index.html"><img class="logo" src="./assets/LOGO.png"></a></div>
+            <div class="container">
+                <ul>
+                    <li class="events"><a href="./events.html">Events</a></li>
+                    <li class="itinerary"><a href="./itinerary.html">Itinerary</a></li>
+                    <li class="gallery"><a href="./gallery.html">Gallery</a></li>
+                    <li class="backtobasics"><a href="./iqmubacktobasics.html">IQMU : Back To Basics</a></li>
+                    <li class="iqmu2020"><a href="./iqmu2020.html">IQMU 2020</a></li>
+                    <hr id="navhr" />
+                </ul>
+            </div>
+            <button class="registerbtn">
+                <a href="./registration.html">Register Now</a>
+            </button>
+        </div>
+        <div class="mobile">
+            <div class="navbar">
+                <div class="nav-logo"><a href="./index.html"><img class="logo" src="./assets/LOGO.png"></a></div>
+                <a href="#" id="open">&#9776;</a>
+            </div>
+        </div>
+        <div id="landingcontent">
+            <p id="lh1">International Quiz for Medical<br>Undergraduates 2021
+            </p>
+            <p id="lh2" class="line-1 anim-typewriter">5<sup>th </sup>- 7<sup>th</sup> March 2021
+            </p>
+            <p id="lh3">IQMU comprises of both academic and cultural<br>events centred around a unique, competitive,
+                and<br>
+                well-rounded multi-tiered medical quiz.
+                <br>
+                <a href="./aboutUs.html">Know More</a>
+                <br>
+            </p>
+
+            <button class="contentregisterbtn">
+                <a href="./registration.html">Register Now</a>
+            </button>
+        </div>
+    </div>
+    <div id="aboutussection">
+        <div class="aboutuscontent">
+            <p id="auh" data-aos="fade-up" data-aos-duration="1500">About Us</p>
+            <p id="auc" data-aos="fade-up" data-aos-duration="1600">
+                The International Quiz for Medical Undergraduates, IQMU, is a student-run initiative hosted by Kasturba
+                Medical College, Manipal, a name synonymous with quality medical education, as proven by its consistent
+                ranking amongst the top 10 medical colleges in the country over the years.
+                <br>
+                <br>
+
+                IQMU was conceived from the experience and inspiration gathered by a team of students who attended a
+                similar international competition – CICoM, in Mexico, in the year 2016. Upon their return to Manipal,
+                their stories ignited a spark in their fellow peers to create an event which strives to facilitate
+                international academic and cultural exchange, and thus IQMU made its debut in 2017 with the continuous
+                support of our sponsor, GEMx.
+
+            </p>
+            <br>
+            <br>
+            <hr data-aos="fade-up">
+            <br>
+        </div>
+        <div class="mv">
+
+            <div class="mission" data-aos="fade-right" data-aos-duration="1500">
+                <span id="mh"><img class="micon" src="./assets/mission-01.svg" data-aos="fade-right"
+                        data-aos-duration="500">Mission</span>
+                <p id="mc">We aim to become a leading international student organization which helps <br>
+                    engage competitive medical students while creating long-lasting and fruitful relationships
+                    among future doctors from around the world.</p>
+            </div>
+            <div class="vision" data-aos="fade-left" data-aos-duration="1500">
+                <span id="vh"><img class="vicon" src="./assets/vision-01.svg" data-aos="fade-right"
+                        data-aos-duration="500">Vision</span>
+                <p id="vc">We hope to serve as an entity dedicated to the development of innovative learning
+                    strategies and the creation of well-rounded physicians.</p>
+            </div>
+            <div class="quiznew" data-aos="fade-up" data-aos-duration="1500">
+                <span id="quizhead"><img class="vicon" src="./assets/Group 1080.svg" data-aos="fade-right"
+                        data-aos-duration="500">Quiz</span>
+                <p id="vc">The International Quiz for Medical Undergraduates is a student-run initiative of KMC, Manipal,<br> 
+                    with the aim of fostering among fellow medical students a passion to go beyond textbooks and<br> 
+                    foray into the multitudinous discoveries and research in the medical field today. Now in its<br> 
+                    fifth edition, IQMU comprises of both academic and cultural events centred around a unique,
+                    competitive, and well-rounded multi-tiered medical quiz.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="members">
+        <div class="comh" data-aos="fade-up" data-aos-duration="1500">Meet the Committee</div>
+        <div class="membercontainer">
+            <div id="member1" data-aos="fade-up" data-aos-duration="1700">
+                <div id="imgbox"></div>
+                <p id="name">Kunal Agarwal</p>
+                <p id="post">Organizing Chairperson</p>
+                <p id="desc">A born leader, Kunal's style blends empathy, understanding, and collaboration with a 
+                    genuine desire to break boundaries and set higher standards for IQMU every year.<br>
+                    With a natural instinct for leadership and an eye for detail, there are exciting things in store with Kunal captaining the ship.
+                </p>
+            </div>
+            <div id="member2" data-aos="fade-up" data-aos-duration="1400">
+                <div id="imgbox"></div>
+                <p id="name">Ritika Dwarak</p>
+                <p id="post">Organizing Chairperson</p>
+                <p id="desc">Previously head of design, Ritika's unmatched creativity proved instrumental in creating glamorous 
+                    pieces of art which truly encapsulated everything that IQMU is about. <br>
+                    That passion, dedication and skill in leadership is now being carried on for another year, with her leading 
+                    the committee from the front one of the Organising Chairpersons.
+                </p>
+            </div>
+            <div id="member3" data-aos="fade-up" data-aos-duration="900">
+                <div id="imgbox"></div>
+                <p id="name">Swati Gupta</p>
+                <p id="post">Head of Scientific</p>
+                <p id="desc">Devising the best quizzing plan for hardcore quizzers and providing you a unique learning experience, 
+                Swati with her intelligent team is here to give us the best of knowledge on all aspects of medical science, 
+                be it medical procedures, facts or statistics.
+                </p>
+            </div>
+            <div id="member4" data-aos="fade-up" data-aos-duration="1400">
+                <div id="imgbox"></div>
+                <p id="name">Arsalaan Kidwai</p>
+                <p id="post">Head of Public Relations</p>
+                <p id="desc">Ambitious and passionate for the committee, Arsalaan is dedicated to have global participation.<br>
+                From managing public relations  to addressing feedbacks, he’s determined to take IQMU to new heights.
+                </p>
+            </div>
+            <div id="member5" data-aos="fade-up" data-aos-duration="1700">
+                <div id="imgbox"></div>
+                <p id="name">Bhavesh Srivastava</p>
+                <p id="post">Head of Finance</p>
+                <p id="desc">Excellent problem solving and analytical abilities along with great communication skills that gets us the best 
+                sponsors for our event.<br>
+                Managing the expenses and providing us with incredible facilities, Bhavesh has got it all covered.
+                </p>
+            </div>
+            <div id="member6" data-aos="fade-up" data-aos-duration="1700">
+                <div id="imgbox"></div>
+                <p id="name">Shailja Sharma</p>
+                <p id="post">Head of Registrations and Logistics</p>
+                <p id="desc">Making the registration process streamlined from beginning and maintaining maximum efficiency, 
+                    Shailja and her team is reliable, organised and enthusiastic and ensures a hassle-free stay with us.
+                </p>
+            </div>
+            <div id="member7" data-aos="fade-up" data-aos-duration="1400">
+                <div id="imgbox"></div>
+                <p id="name">Tanya Thomas</p>
+                <p id="post">Head of Email and Correspondence</p>
+                <p id="desc">Determined and hardworking for the committee, Tanya has been making sure she leaves no stone unturned in 
+                contacting colleges and getting maximum participation.<br>
+                She has been very consistent in her work and has been doing it with full efficiency.
+                </p>
+            </div>
+            <div id="member8" data-aos="fade-up" data-aos-duration="900">
+                <div id="imgbox"></div>
+                <p id="name">Shubham Goyal</p>
+                <p id="post">Head of Coordination</p>
+                <p id="desc">Dedicated and Warm, the qualities you'd want in your host.<br>
+                He, with his multitasking skills, will ensure you have the best stay with us filled with comfort and joy.
+                </p>
+            </div>
+            <div id="member9" data-aos="fade-up" data-aos-duration="1400">
+                <div id="imgbox"></div>
+                <p id="name">Shruti Kumari</p>
+                <p id="post">Head of Communication</p>
+                <p id="desc">Patient, hardworking and a persuasive intermediary, Shruti is confident in her communication skills and well managed to get all the work done in time.
+                </p>
+            </div>
+            <div id="member10" data-aos="fade-up" data-aos-duration="1700">
+                <div id="imgbox"></div>
+                <p id="name">Chirag Gupta</p>
+                <p id="post">Head of Design</p>
+                <p id="desc">Giving shape to our imagination by creating beautiful designs and centrepiece, 
+                he’s an amalgam of art and science, medicine and creativity.
+                </p>
+            </div>
+        </div>
+        <hr data-aos="fade-up">
+    </div>
+    <div class="abtkmc">
+        <!-- <img src="./assets/pattern1-01.svg" alt="" class="pattern1"> -->
+        <div class="aboutkmccontent">
+            <p id="kh" data-aos="fade-up" data-aos-duration="1500">About KMC</p>
+            <div id="kmc">
+                <p id="kc" data-aos="fade-right" data-aos-duration="1400">
+                    A name synonymous with quality medical education, as proven by its consistent ranking amongst the
+                    <br>
+                    top 10 medical colleges in the country over the years. KMC <br> Manipal is a constituent of Manipal
+                    Academy of Higher Education, a world-class institution sprawled over 600 acres in Karnataka, India.
+                    <img src="./assets/kmclogo.jpg" alt="">
+                </p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.9363463709324!2d74.78491241459811!3d13.354234109980275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbca4a9f0000001%3A0x210b29d98213a68f!2sKasturba+Medical+College%2C+Manipal!5e0!3m2!1sen!2sin!4v1562182492293!5m2!1sen!2sin"
+                    width="466.66" height="350" frameborder="0" style="border:0" allowfullscreen data-aos="fade-left"
+                    data-aos-duration="1400" id="maps"></iframe>
+            </div>
+            <br>
+            <br>
+            <br>
+
+        </div>
+    </div>
+
+
+    <div class="sponsors">
+        <hr data-aos="fade-up">
+        <div class="sh" data-aos="fade-up" data-aos-duration="1500">We thank our sponsors for making this event
+            possible </div>
+
+
+        <div class="sponsorlogos">
+            
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div id="footerbg">
+
+            <div id="smlogos">
+                <a href="https://www.instagram.com/iqmu2020/" target="_blank"><img src="./assets/instalogo.svg"
+                        alt=""></a>
+                <a href="https://www.facebook.com/IQMU2020/" target="_blank"><img src="./assets/facebooklogo.svg"
+                        alt=""></a>
+
+            </div>
+            <span id="devtag">Made with &nbsp;<i class="fa fa-heart" id="heart"></i> &nbsp;by <span id="myname">&nbsp;<a
+                        href="https://www.linkedin.com/in/reitwiec-shandilya-ba2014166" target="_blank">Reitwiec
+                        Shandilya</a> & <a href="https://www.linkedin.com/in/sarthak-mohapatra-5a55a1189/">Sarthak Mohapatra</a></span></span>
+            <span id="copyright">© 2020, IQMU Manipal. All rights reserved. </span>
+        </div>
+    </footer>
+    <script src="./main.js">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+
+</html>
