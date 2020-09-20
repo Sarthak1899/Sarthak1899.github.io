@@ -194,7 +194,8 @@ footer {
         font-size: 10px;
     }
     #footerbg {
-        margin-top: 600px;
+        position: relative;
+        top: 200px;
         background: #262727;
         height: 140px;
         text-align: center;
@@ -267,7 +268,8 @@ footer {
         font-size: 10px;
     }
     #footerbg {
-        margin-top: 400px;
+        position: relative;
+        top: 0px;
         background: #262727;
         height: 140px;
         text-align: center;
