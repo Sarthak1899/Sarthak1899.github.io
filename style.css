@@ -1327,4 +1327,7 @@ footer {
 
         height: 95vh;
     }
+    #aboutussection {
+        min-height: 170vh;
+    }
 }
