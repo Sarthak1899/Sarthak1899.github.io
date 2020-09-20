@@ -133,6 +133,8 @@ button:hover {
 }
 
 #message {
+    position: relative;
+    top: 150px;
     text-align: center;
     margin-top: 4px;
     color: #494949;
@@ -154,7 +156,7 @@ button:hover {
 }
 
 #footer {
-    margin-top: 400px;
+    margin-top: 200px;
     background: #262727;
     height: 140px;
     text-align: center;
@@ -338,7 +340,7 @@ button:hover {
 
 
     #footer {
-        margin-top: 1800px;
+        margin-top: 1500px;
     }
 
 
@@ -393,6 +395,9 @@ button:hover {
         display: inline-flex;
         flex-wrap: wrap;
     }
+    #footer {
+        margin-top: 1000px;
+    }
 }
 
 @media(max-width:500px) and (min-width:410px) {
@@ -408,6 +413,9 @@ button:hover {
         height: 2000px;
         display: inline-flex;
         flex-wrap: wrap;
+    }
+    #footer {
+        margin-top: 1200px;
     }
 }
 
@@ -426,5 +434,8 @@ button:hover {
         height: 2000px;
         display: inline-flex;
         flex-wrap: wrap;
+    }
+    #footer {
+        margin-top: 1000px;
     }
 }
