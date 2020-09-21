@@ -40,6 +40,52 @@ $("#backbtn").click(function () {
   x -= 1;
 });
 
+let y=0;
+$("#nextbtn2").click(function () {
+  console.log(x);
+  if (y === 0) {
+    $("#landingcontent1").css({
+      display: "none"
+    });
+    $("#landingcontent2").css({
+      display: "block"
+    });
+    $("#backbtn2").css({
+      display: "block"
+    });
+    $("#nextbtn2").css({
+      display: "none"
+    });
+    y += 1;
+  } else if (y === 1) {
+    $("html,body").animate(
+      {
+        scrollTop: $("#aboutussection").offset().top
+      },
+      "slow"
+    );
+  }
+});
+
+$("#backbtn2").click(function () {
+  $("#landingcontent1").css({
+    display: "block"
+  });
+  $("#landingcontent2").css({
+    display: "none"
+  });
+  $("#backbtn2").css({
+    display: "none"
+  });
+  $("#nextbtn2").css({
+    display: "block"
+  });
+  y -= 1;
+});
+
+
+
+
 $("#international").click(function () {
   $("#international").addClass("selectedoption");
   $("#indian").removeClass("selectedoption");
