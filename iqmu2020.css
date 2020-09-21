@@ -205,14 +205,14 @@ footer {
 
 @media(max-width:400px) and (max-height:700px) {
     #redbg {
-        height: 250vh;
+        height: 200vh;
     }
 
 }
 
 @media(max-width:400px) and (max-height:600px) {
     #redbg {
-        height: 320vh;
+        height: 300vh;
     }
 
     .testimonial {

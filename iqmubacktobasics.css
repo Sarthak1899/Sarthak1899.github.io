@@ -388,7 +388,7 @@ button:hover {
     .contentregisterbtnback {
         height: 40px;
         width: 140px;
-        margin-left: 170px;
+        margin-left: 20px;
         bottom: 20px;
 
     }
@@ -469,6 +469,9 @@ button:hover {
 
         margin-top: 20px;
     }
+    #auc{
+        margin-bottom: 40px;
+    }
 }
 
 
@@ -493,6 +496,9 @@ button:hover {
         height: 35px;
         width: 120px;
         bottom: 10px;
+    }
+    #auc{
+        margin-bottom: 40px;
     }
 }
 
