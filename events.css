@@ -288,7 +288,18 @@ button:hover {
     justify-content: center;
 }
 
-
+@media(max-width:1024px){
+    #footer {
+        margin-top: 600px;
+    }
+    #redbg {
+        height: 60vh;
+        margin: 0;
+        padding: 0px 40px 0 40px;
+        position: relative;
+        z-index: 0;
+    }
+}
 
 @media(max-width:600px) {
 
