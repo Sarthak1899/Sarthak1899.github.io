@@ -142,7 +142,12 @@ footer {
 
 
 
+@media(max-width:1024px){
+    #redbg {
+        height: 100vh;
+    }
 
+}
 
 
 
