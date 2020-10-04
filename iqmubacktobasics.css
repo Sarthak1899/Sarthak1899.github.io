@@ -370,7 +370,7 @@ button:hover {
     }
     #level {
         margin-top: -50px;
-        height: 2000px;
+        height: 800px;
         display: inline-flex;
         flex-wrap: wrap;
     }
@@ -408,7 +408,7 @@ button:hover {
 }
 
 #footer {
-    margin-top: 150px;
+    margin-top: 700px;
     background: #262727;
     height: 140px;
     text-align: center;
@@ -472,13 +472,16 @@ button:hover {
     #auc{
         margin-bottom: 40px;
     }
+    #footer{
+        margin-top: 500px;
+    }
 }
 
 
 @media(max-width:400px) and (max-height:700px) {
     #level {
         margin-top: -50px;
-        height: 2000px;
+        height: 1200px;
         display: inline-flex;
         flex-wrap: wrap;
     }
