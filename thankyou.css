@@ -107,7 +107,7 @@ body {
 @media(max-width:600px) {
     #card {
         width: 90vw;
-        height: 380px;
+        height: 580px;
 
         top: 35%;
         left: 50%;
