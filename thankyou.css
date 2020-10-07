@@ -6,7 +6,7 @@ body {
 
 #card {
     width: 400px;
-    height: 380px;
+    height: 440px;
     background: white;
     position: absolute;
     top: 35%;
@@ -37,7 +37,7 @@ body {
 }
 
 #contentsIn {
-    margin-top: 10px;
+    margin-top: 1px;
     padding: 20px;
     display: flex;
     flex-direction: column;
