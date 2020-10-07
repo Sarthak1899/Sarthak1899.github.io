@@ -196,6 +196,27 @@ footer {
     }
     #footerbg {
         position: relative;
+        top: 150px;
+        background: #262727;
+        height: 140px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #redbg {
+        height: 250vh;
+    }
+
+}
+
+
+@media(max-width:400px) and (max-height:700px) {
+    #redbg {
+        height: 200vh;
+    }
+    #footerbg {
+        position: relative;
         top: 400px;
         background: #262727;
         height: 140px;
@@ -204,20 +225,11 @@ footer {
         flex-direction: column;
         justify-content: space-around;
     }
-
-}
-
-
-@media(max-width:400px) and (max-height:700px) {
-    #redbg {
-        height: 300vh;
-    }
-
 }
 
 @media(max-width:400px) and (max-height:600px) {
     #redbg {
-        height: 400vh;
+        height: 300vh;
     }
 
     .testimonial {
@@ -264,7 +276,7 @@ footer {
     }
     #footerbg {
         position: relative;
-        top: 0px;
+        top: -10px;
         background: #262727;
         height: 140px;
         text-align: center;

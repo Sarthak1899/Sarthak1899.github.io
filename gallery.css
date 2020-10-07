@@ -214,13 +214,15 @@ footer {
         flex-direction: column;
         justify-content: space-around;
     }
-
+    #redbg {
+        height: 200vh;
+    }
 }
 
 
 @media(max-width:400px) and (max-height:700px) {
     #redbg {
-        height: 300vh;
+        height: 200vh;
     }
     .testimg {
         width: 180px;
@@ -228,11 +230,21 @@ footer {
         position: relative;
         left: 68px;
     }
+    #footerbg {
+        position: relative;
+        top: 300px;
+        background: #262727;
+        height: 140px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
 
 @media(max-width:400px) and (max-height:600px) {
     #redbg {
-        height: 480vh;
+        height: 300vh;
     }
 
     .testimonial {
@@ -285,7 +297,7 @@ footer {
     }
     #footerbg {
         position: relative;
-        top: 0px;
+        top: 200px;
         background: #262727;
         height: 140px;
         text-align: center;
