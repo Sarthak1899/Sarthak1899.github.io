@@ -6,7 +6,7 @@ body {
 
 #card {
     width: 400px;
-    height: 480px;
+    height: 380px;
     background: white;
     position: absolute;
     top: 35%;
@@ -107,7 +107,7 @@ body {
 @media(max-width:600px) {
     #card {
         width: 90vw;
-        height: 480px;
+        height: 380px;
 
         top: 35%;
         left: 50%;
