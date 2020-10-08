@@ -484,6 +484,7 @@ button:hover {
         height: 1000px;
         display: inline-flex;
         flex-wrap: wrap;
+        margin-bottom: 10px;
     }
     .contentregisterbtnnext {
         height: 35px;
@@ -494,7 +495,7 @@ button:hover {
     #redbg {
         height: 85vh;
         position: relative;
-        top: 70px;
+        top: 100px;
     }
     .contentregisterbtnback {
         height: 35px;
@@ -523,6 +524,7 @@ button:hover {
         height: 1000px;
         display: inline-flex;
         flex-wrap: wrap;
+        margin-bottom: 10px;
     }
     .contentregisterbtnnext {
         height: 35px;
@@ -532,7 +534,7 @@ button:hover {
     }
     #redbg {
         position: relative;
-        top: 70px;
+        top: 100px;
         height: 105vh;
 
     }
