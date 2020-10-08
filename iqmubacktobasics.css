@@ -514,7 +514,15 @@ button:hover {
     }
 }
 
-
+@media(max-width:500px){
+    #level {
+        margin-top: -50px;
+        height: 1000px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        margin-bottom: 120px;
+    }
+}
 
 @media(max-width:400px) and (max-height:600px) {
     #level {
