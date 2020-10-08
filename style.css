@@ -1142,7 +1142,10 @@ footer {
         width: 100vw;
         height: 140vw;
     }
-
+    #aboutussection {
+        width: 100vw;
+        min-height: 140vw;
+    }
     html,
     body {
         width: 100%;
@@ -1161,7 +1164,6 @@ footer {
         margin-left: -30px;
         margin-top: 30px;
         flex-wrap: wrap;
-
     }
 
     .micon {
@@ -1339,9 +1341,6 @@ footer {
         font-size: 19px;
     }
 
-    #aboutussection {
-        min-height: 80vh;
-    }
 
 }
 
