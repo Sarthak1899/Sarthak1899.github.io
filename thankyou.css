@@ -107,7 +107,7 @@ body {
 @media(max-width:600px) {
     #card {
         width: 90vw;
-        height: 380px;
+        height: 420px;
 
         top: 35%;
         left: 50%;
@@ -124,6 +124,13 @@ body {
 
         bottom: -100px;
     }
+    #card {
+        width: 90vw;
+        height: 450px;
+
+        top: 35%;
+        left: 50%;
+    }
 }
 
 @media(max-width:500px) and (min-width:410px) {}
@@ -135,5 +142,12 @@ body {
     #footerbg {
 
         bottom: -100px;
+    }
+    #card {
+        width: 90vw;
+        height: 437px;
+
+        top: 35%;
+        left: 50%;
     }
 }
