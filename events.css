@@ -410,6 +410,12 @@ button:hover {
         margin-top: 1000px;
     }
 }
+@media(max-width:900px){
+    #level {
+        position: relative;
+        right: 20px;
+    }
+}
 
 @media(max-width:500px) and (min-width:410px) {
     #redbg {

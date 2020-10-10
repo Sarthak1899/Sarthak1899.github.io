@@ -226,7 +226,18 @@ footer {
         justify-content: space-around;
     }
 }
-
+@media(max-width:900px){
+    #footerbg {
+        position: relative;
+        top: 800px;
+        background: #262727;
+        height: 140px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
 @media(max-width:400px) and (max-height:600px) {
     #redbg {
         height: 300vh;

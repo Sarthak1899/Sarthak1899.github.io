@@ -315,7 +315,18 @@ button:hover {
 }
 
 
-
+@media(max-width:900px){
+    #footer {
+        margin-top: 350px;
+        background: #262727;
+        height: 140px;
+        text-align: center;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
 
 
 
