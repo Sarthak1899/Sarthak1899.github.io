@@ -222,7 +222,11 @@ footer {
 
 @media(max-width:400px) and (max-height:700px) {
     #redbg {
-        height: 200vh;
+        height: 140vh;
+    }
+    #video{
+        width: 280px;
+        height: 250px;
     }
     .testimg {
         width: 180px;
@@ -232,19 +236,13 @@ footer {
     }
     #footerbg {
         position: relative;
-        top: 300px;
+        top: 10px;
         background: #262727;
         height: 140px;
         text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-    }
-    #video{
-        width: 350px;
-        height: 200px;
-        position: relative;
-        right:15px;
     }
 }
 
@@ -254,6 +252,19 @@ footer {
         height: 250px;
         position: relative;
         right: 10px;
+    }
+    #redbg {
+        height: 140vh;
+    }
+    #footerbg {
+        position: relative;
+        top: 400px;
+        background: #262727;
+        height: 140px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }
 @media(max-width:900px){
@@ -286,7 +297,13 @@ footer {
         left: auto;
         right: auto !important;
         position: relative;
-        top: 580px;
+        top: 600px;
+    }
+    #video{
+        width: 350px;
+        height: 200px;
+        position: relative;
+        left: -3px;
     }
 
     #test3 {
