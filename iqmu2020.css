@@ -227,9 +227,12 @@ footer {
     }
 }
 @media(max-width:900px){
+    #redbg {
+        height: 150vh;
+    }
     #footerbg {
         position: relative;
-        top: 800px;
+        top: 400px;
         background: #262727;
         height: 140px;
         text-align: center;

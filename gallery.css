@@ -236,7 +236,7 @@ footer {
     }
     #footerbg {
         position: relative;
-        top: 10px;
+        top: 140px;
         background: #262727;
         height: 140px;
         text-align: center;
@@ -245,7 +245,10 @@ footer {
         justify-content: space-around;
     }
     #test3{
-        top: 1300px;
+        top: 1200px;
+    }
+    #test2{
+        top: 600px;
     }
     
 }
@@ -258,11 +261,11 @@ footer {
         right: 10px;
     }
     #redbg {
-        height: 140vh;
+        height: 160vh;
     }
     #footerbg {
         position: relative;
-        top: 400px;
+        top: 550px;
         background: #262727;
         height: 140px;
         text-align: center;
@@ -270,11 +273,21 @@ footer {
         flex-direction: column;
         justify-content: space-around;
     }
+    #test3{
+        top: 1200px;
+    }
+    #test2{
+        top: 600px;
+    }
+    
 }
 @media(max-width:900px){
+    #redbg {
+        height: 140vh;
+    }
     #footerbg {
         position: relative;
-        top: 800px;
+        top: 500px;
         background: #262727;
         height: 140px;
         text-align: center;
@@ -345,7 +358,7 @@ footer {
     }
     #footerbg {
         position: relative;
-        top: 200px;
+        top: 150px;
         background: #262727;
         height: 140px;
         text-align: center;
