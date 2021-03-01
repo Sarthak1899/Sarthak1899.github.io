@@ -741,7 +741,7 @@ button:focus {
     padding-right: 0px;
     position: relative;
     top: 50%;
-    width: 8.87em;
+    width: 9.27em;
     border-right: 2px solid rgba(255, 255, 255, .75);
     text-align: center;
     white-space: nowrap;
@@ -760,7 +760,7 @@ button:focus {
     }
 
     to {
-        width: 8.87em;
+        width: 9.27em;
         padding-right: 5px;
     }
 }
